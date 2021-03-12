@@ -1,0 +1,37 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+body{
+  background-color: rgba(175, 159, 162, 0.384);
+}
+
+h3{
+  color:blue;
+}
+.myMoodimg{
+  height: 300px;
+}
+ 
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+
+
+
