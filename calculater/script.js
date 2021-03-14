@@ -1,8 +1,8 @@
 /* eslint-disable */
 function tipCalculater(){
-    let bill = document.getElementById("inputOne").value;
-    let tip  = document.getElementById("inoutTwo").value;
-    var tipValue = bill * (tip/100)
+    let bill = +document.getElementById("inputOne").value;
+    let tip  = +document.getElementById("inoutTwo").value;
+    var tipValue = (bill * (tip/100));
     var finalBill = bill + tipValue
     document.getElementById("output").innerHTML = finalBill;
     let display=document.getElementById("output").innerHTML;
